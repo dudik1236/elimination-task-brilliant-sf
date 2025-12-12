@@ -38,3 +38,4 @@ ADD COLUMN nomor_plat VARCHAR(15);
 UPDATE motor SET nomor_plat = 'B 1234 ABC' WHERE motor_id = 1;
 UPDATE motor SET nomor_plat = 'D 5678 DEF' WHERE motor_id = 2;
 -- Biarkan motor_id = 3 tanpa nomor_plat (NULL)
+SELECT * FROM motor WHERE tarif_harian < 50000.00;
